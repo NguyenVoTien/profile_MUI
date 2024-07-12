@@ -106,15 +106,15 @@ const Hero = ({ textColor }) => {
               <Typography
                 variant="body1"
                 sx={{
-                  my: 2,
+                  my: 3,
                   maxWidth: "xl",
-                  py: 6,
+                  py: 0.5,
                   fontWeight: "light",
                   wordWrap: "break-word",
                   fontSize: {
                     xs: "1rem", // sm
                     sm: "1.25rem", // md
-                    md: "1.5rem", // lg
+                    md: "1.2rem", // lg
                   },
                   color: textColor,
                 }}
@@ -127,8 +127,9 @@ const Hero = ({ textColor }) => {
         <Grid
           item
           xs={12}
-          lg={6}
-          p={{ lg: 2 }}
+          md={6}
+          sm={7}
+          p={{ lg: 1 }}
           sx={{
             display: "flex",
             justifyContent: "center",

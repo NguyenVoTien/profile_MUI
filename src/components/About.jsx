@@ -101,7 +101,7 @@ const About = ({ textColor }) => {
                 py={5}
                 maxWidth="xl"
                 sx={{
-                  my: 2,
+                  my: 0,
                   maxWidth: "xl",
                   py: 0.5,
                   fontWeight: "light",
