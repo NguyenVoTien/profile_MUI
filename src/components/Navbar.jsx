@@ -150,30 +150,6 @@ const NavBar = ({ textColor }) => {
         <Box
           sx={{
             flexGrow: 1,
-            display: { xs: "none", sm: "none", md: "flex", lg: "flex" },
-            justifyContent: "center",
-          }}
-        >
-          {menuItems.map((item) => (
-            <Button
-              key={item.label}
-              sx={{
-                padding: { xs: 1, sm: 2 },
-                fontSize: { xs: "0.75rem", sm: "1rem", md: "0.9rem" },
-                alignItems: "center",
-                justifyContent: "center",
-                color: textColor,
-              }}
-              onClick={() => navigateToSection(item.to)}
-            >
-              {item.label}
-            </Button>
-          ))}
-        </Box>
-
-        <Box
-          sx={{
-            flexGrow: 1,
             display: "flex",
             justifyContent: "flex-end",
             alignItems: "center",

@@ -127,9 +127,8 @@ const Hero = ({ textColor }) => {
         <Grid
           item
           xs={12}
-          sm={3}
-          md={5}
           lg={6}
+          p={{ lg: 2 }}
           sx={{
             display: "flex",
             justifyContent: "center",
